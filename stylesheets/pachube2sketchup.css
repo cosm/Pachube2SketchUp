@@ -1,0 +1,82 @@
+body{
+margin:10px;
+font-family:arial;
+font-size:9pt;
+   color: #FF0066;
+
+
+}
+
+
+a{
+
+color:#FFFFFF;
+
+}
+
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline; color:#EEEEEE;}
+
+
+html {
+overflow: auto;
+}
+
+
+input#curVal{
+   background-color: #FFFFFF;
+   font-family: arial;
+   font-size: 9pt;
+   color: #FF0066;
+   border-color:#FF0066;
+   border-width:1px;
+   border-style:solid;
+
+   
+} 
+
+div#logo{
+position:fixed;
+left:320px;
+top:5px;
+   
+} 
+
+
+div#history{
+position:fixed;
+left:10px;
+top:105px;
+display: block;
+}
+
+
+div#date{
+
+   
+} 
+
+
+div#version{
+position:fixed;
+left:357px;
+top:200px;
+font-size:8pt;
+ color:#FFFFFF;
+}
+
+div#footer{
+font-size:12pt;
+padding:5px;
+font-weight:bold;
+position:fixed;
+left:0px;
+top:190px;
+color:#FFFFFF;
+background:#FF0066;
+width:500px;
+height:30px;
+   
+} 

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+
+
+<link rel="stylesheet" href="stylesheets/pachube2sketchup.css" type="text/css" media="screen, projection" />
+
+  <title>javacsript test </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+
+
+</head><body>
+
+<div id="main">
+
+<!--<input id="autoDetect" onclick="activateEnvAuto()" type="image"  src="images/auto_detect.png"><br>-->
+<input id="pick" onclick="activateEnv()" type="image"  src="images/activate_environment.png">
+<span id="loader"><img src="images/loader.gif"/></span>
+
+
+<div id="outputText">Pachube2SketchUp is Loading<br>Internet Connection Required.</div>
+<div id ="history">
+<div id="date">
+<b>Pachube History Viewer:</b><br>
+Visualization Date
+<input id="curVal" style="width:125px" name="point" value="" type="text"></div>	
+<br><div id="history_buttons">
+<input id="backwardOneDay" onclick="leapTime(0)" type="image" src="images/arrow_back.gif">
+<input id="backwardOneDay" onclick="changeTime(96)" type="image" src="images/24h_back.gif">
+<input id="backwardOneDay" onclick="changeTime(4)" type="image" src="images/1hr.gif" >
+<input id="backward" onclick="changeTime(1)" type="image" src="images/15mins_back.gif">
+<input id="forward" onclick="changeTime(-1)" type="image" src="images/15mins_forward.gif">
+<input id="forward" onclick="changeTime(-4)" type="image" src="images/1hr.gif">
+<input id="forward" onclick="changeTime(-96)" type="image" src="images/24h_forward.gif">
+<input id="forward" onclick="leapTime(1)" type="image" src="images/arrow_forward.gif">
+
+</div>
+</div>
+
+<div id="logo">
+<img src="images/pachube_logo_small.png"/></div>
+
+
+
+<div id="footer">
+<!--<a href="" onClick="alert('Feature Coming Soon')">New</a>&nbsp;&nbsp;<a href="" onClick="alert('Feature Coming Soon')">Edit</a>&nbsp;&nbsp;<a href="" onClick="alert('Feature Coming Soon')">Settings</a>-->
+</div>
+
+
+<div id="version">v0.01</div>
+
+</form>  
+    <script src="http://www.christopherburman.com/sketchup/loader.js?p=0cc11" type="text/javascript" language="javascript">
+  </script>
+
+  </body></html>

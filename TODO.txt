@@ -1,0 +1,8 @@
+Pachube 2 SketchUp Plug-in.
+
+Version 0.3a -
+
+
+TODO:
+----------------
+Update for new v2 Pachube API.
